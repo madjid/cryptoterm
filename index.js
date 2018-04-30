@@ -21,6 +21,8 @@ if (ticker==undefined) {
       log('Error:' + error)
     }
   })
+} else {
+  tickerData()
 }
 
 function globalData(callback) {
