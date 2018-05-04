@@ -1,6 +1,6 @@
 {
   "name": "cryptoterm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "bin" : { "cryptoterm" : "./index.js"},
   "description": "Cryptocurrency data form Coinmarketcap.com API",
   "main": "index.js",
