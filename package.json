@@ -1,10 +1,10 @@
 {
   "name": "cryptoterm",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "bin": {
     "cryptoterm": "./index.js"
   },
-  "description": "Cryptocurrency data form Coinmarketcap.com API",
+  "description": "Cryptocurrency data from Coinmarketcap.com API",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,9 +27,10 @@
   "dependencies": {
     "chalk": "^2.4.1",
     "cli-table": "^0.3.1",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.5",
     "numeral": "^2.0.6",
-    "request": "^2.85.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
     "unix-timestamp": "^0.2.0"
   }
 }

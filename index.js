@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var request = require('request')
+//var request = require('request')
 var Table = require('cli-table')
 const chalk = require('chalk')
 var timestamp = require('unix-timestamp')
