@@ -73,11 +73,6 @@ var crypto = [coin.cmc_rank, coin.symbol,
 
 var fixedData = replaceNull(crypto)
 table.push(fixedData)
-
-if (coin.symbol === 'BAT'){
-   console.log(coin);
- }
-
 });
 
 console.log(table.toString())
